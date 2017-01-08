@@ -1,0 +1,11 @@
+1
+FlatTire(x)
+8
+~BatteryOK(x) | ~BulbsOK(x) | HeadlightsWork(x)
+~BatteryOK(x) | ~StarterOK(x) | EmptyGasTank(x) | EngineStarts(x)
+~EngineStarts(x) | FlatTire(x) | CarOK(x)
+HeadlightsWork(x)
+BatteryOK(x)
+StarterOK(x)
+~EmptyGasTank(x)
+~CarOK(x)

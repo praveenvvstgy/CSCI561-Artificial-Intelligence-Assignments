@@ -1,0 +1,12 @@
+1
+Hates(Mac, Pete)
+9
+Farmer(Mac)
+Rabbit(Pete)
+Mother(MrsMac, Mac)
+Mother(MrsRabbit, Pete)
+((Rabbit(r) & Farmer(f)) => Hates(f, r))
+(Mother(m, c) => Loves(m, c))
+((Mother(m, r) & Rabbit(r)) => Rabbit(m))
+(Farmer(f) => Human(f))
+((Mother(m, h) & Human(h)) => Human(m))
